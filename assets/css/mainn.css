@@ -2178,7 +2178,7 @@ button,
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e9f1f3 url("images/about.svg") no-repeat;
+	background: #e8f2f4 url("images/about.svg") no-repeat;
 	padding: 1em 0 1em 0;
 	margin: 0;
 	background-size: 100% auto;
@@ -2268,7 +2268,7 @@ ol.circle li::before {
 .rooms-grid li {
 	width: 30%;
 	float: left;
-	padding: 2%;
+	padding: 3%;
 	display:inline-block;
 }
 
