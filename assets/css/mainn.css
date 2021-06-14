@@ -5,12 +5,6 @@
 @import url("https://fonts.googleapis.com/css?family=Architects+Daughter:300,300italic,400,600")
 
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1379,7 +1373,6 @@ a.callbutton{
 	top: 10px;
 	left: 10px;
 	overflow: none;
-	leftalign: left;
 }
 
 
@@ -2095,11 +2088,12 @@ button,
 			background: url("images/arrow.svg") no-repeat;
 		}
 
-/** About */
+/** Amenities */
 .amenities-grid {
 	list-style: none;
 	margin: 0;
 }
+
 .amenities-grid ul {
 	padding: 50px;
 }
@@ -2134,54 +2128,213 @@ button,
 }
 
 #icon-tennis {
-	background: #e9f1f3 url("images/sprite _amenities.png") -140px -475px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -140px -475px;
 }
 #icon-cricket {
-	background: #e9f1f3 url("images/sprite _amenities.png") -20px -115px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -20px -115px;
 }
 #icon-kids {
-	background: #e9f1f3 url("images/sprite _amenities.png") -140px -235px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -140px -235px;
 }
 #icon-indoor {
-	background: #e9f1f3 url("images/sprite _amenities.png") -260px -115px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -260px -115px;
 }
 #icon-library {
-	background: #e9f1f3 url("images/sprite _amenities.png") -260px -235px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -260px -235px;
 }
 #icon-barbeque {
-	background: #e9f1f3 url("images/sprite _amenities.png") -20px 5px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -20px 5px;
 }
 #icon-pet {
-	background: #e9f1f3 url("images/sprite _amenities.png") -20px -355px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -20px -355px;
 }
 #icon-bonfire {
-	background: #e9f1f3 url("images/sprite _amenities.png") -260px 5px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -260px 5px;
 }
 #icon-hiking {
-	background: #e9f1f3 url("images/sprite _amenities.png") -140px -115px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -140px -115px;
 }
 #icon-jungle {
-	background: #e9f1f3 url("images/sprite _amenities.png") -20px -235px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -20px -235px;
 }
 #icon-seight {
-	background: #e9f1f3 url("images/sprite _amenities.png") -260px -355px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -260px -355px;
 }
 #icon-photography {
-	background: #e9f1f3 url("images/sprite _amenities.png") -140px -355px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -140px -355px;
 }
 #icon-star {
-	background: #e9f1f3 url("images/sprite _amenities.png") -20px -475px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -20px -475px;
 }
 #icon-bird {
-	background: #e9f1f3 url("images/sprite _amenities.png") -140px 5px;
+	background: #e9f1f3 url("images/sprite_amenities.png") -140px 5px;
 }
+.room-parent-container {
+}
+
+/* Packages */
+#packages {
+	position: relative;
+	color: #252645;
+	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+	text-align: center;
+	background: #e9f1f3 url("images/about.svg") no-repeat;
+	padding: 1em 0 1em 0;
+	margin: 0;
+	background-size: 100% auto;
+}
+
+.package_container {
+	width: 95%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+    border-radius: 5px;
+	padding: 1em 0 1em 0;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	display: flex;
+	background: white;
+}
+
+#package-icon {
+	width: 170px;
+	height: 173px;
+	position: relative;
+    top: -40px;
+	z-index: 2;
+}
+
+.package24 {
+	background: url("images/packages-rooms.png") -15px -190px;
+}
+
+.nightpackage {
+	background: url("images/packages-rooms.png") -15px -382px;
+}
+
+.daypackage {
+	background: url("images/packages-rooms.png") -15px -571px;
+}
+
+.evepackage {
+	background: url("images/packages-rooms.png") -15px -758px;
+}
+
+.packageh {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+ol.circle {
+	list-style-type: none;
+	text-align: left;
+}
+
+ol.circle li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.package {
+	width: 25%;
+	font-size: 14px;
+}
+
+/* rooms */
+#rooms {
+	position: relative;
+	color: #252645;
+	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+	text-align: center;
+	background: #e9f1f3 url("images/about.svg") no-repeat;
+	padding: 1em 0 1em 0;
+	margin: 0;
+	background-size: 100% auto;
+	height: 680px;
+}
+.rooms-grid {
+	list-style: none;
+	margin: 0;
+}
+
+.rooms-grid ul {
+	padding: 50px;
+}
+
+.rooms-grid li {
+	width: 30%;
+	float: left;
+	padding: 2%;
+	display:inline-block;
+}
+
+#icon-rooma {
+	background: url("images/packages-rooms.png") -10px -955px;
+}
+#icon-roomb {
+	background: url("images/packages-rooms.png") -10px -1090px;
+}
+#icon-roomc {
+	background: url("images/packages-rooms.png") -10px -1230px;
+}
+.rooms-icon {
+	position: relative;
+    top: -40px;
+	width: 125px;
+	height: 125px;
+	border: 1px;
+	z-index: 2;
+}
+
+.room-container {
+	width: 90%;
+}
+.occupancy {
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+
+.occupancy-icon {
+	background: url("images/packages-rooms.png") -160px -960px;
+	width: 30px;
+	height: 30px;
+}
+.bed-icon {
+	background: url("images/packages-rooms.png") -150px -1230px;
+	width: 30px;
+	height: 30px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+    border-radius: 5px;
+	border: 1px;
+	text-align: center;
+	height: 100%
+}
+
+.card-container {
+	padding:0.01em 16px;
+	position: relative;
+	font-size: 14px;
+}
+
+.card-center {
+	text-align:center!important
+}
+
 /* Banner */
 #about {
 	position: relative;
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e9f1f3 url("images/about.svg") no-repeat;
+	background: #e9f1f3 url("images/about.png") no-repeat;
 	padding: 5em 0 5em 0;
 	margin: 0;
 	background-size: 100% auto;
@@ -2446,6 +2599,11 @@ button,
 	.amenities-grid li {
 		width: 30%;
 	}
+	
+	.rooms-grid li {
+		width: 30%;
+	}
+	
 	/* Basic */
 	.navbar {   
 		flex-direction: column;
@@ -2525,6 +2683,9 @@ button,
 	.amenities-grid li {
 		width: 50%;
 	}
+	.rooms-grid li {
+		width: 50%;
+	}
 	.navbar {   
 		flex-direction: column;
 	}
@@ -2535,6 +2696,11 @@ button,
 	.amenities-grid li {
 		width: 50%;
 	}
+	
+	.rooms-grid li {
+		width: 50%;
+	}
+	
 	.navbar {   
 		flex-direction: column;
 	}
