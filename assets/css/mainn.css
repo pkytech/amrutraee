@@ -132,12 +132,21 @@ body {
 	.container {
 		width: 95%;
 	}
+	
+	.package_container {
+		flex-direction: column;
+	}
 
 }
 @media screen and (max-width: 500px) {
-	
+	.package_container {
+		flex-direction: column;
+	}
 }
 @media screen and (max-width: 840px) {
+	.package_container {
+		flex-direction: column;
+	}
 	
 	.container.\31 25\25 {
 		width: 100%;
@@ -2185,7 +2194,6 @@ button,
 }
 
 .package_container {
-	width: 95%;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
     border-radius: 5px;
@@ -2244,6 +2252,59 @@ ol.circle li::before {
 	font-size: 14px;
 }
 
+/** contact **/
+.contact_container {
+	width: 95%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	padding: 1em 0 1em 0;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	display: flex;
+}
+.contact_map {
+	width: 30%;
+}
+.contact_details {
+	width: 70%;
+	margin-left: 1.5em;
+}
+.contact-icon {
+	width: 20px;
+	height: 21px;
+}
+#icon-address {
+	background: #0A2336 url("images/packages-rooms.png") -154px -1360px;
+}
+#icon-email {
+	background: #0A2336 url("images/packages-rooms.png") -154px -1320px;
+}
+#icon-tel {
+	background: #0A2336 url("images/packages-rooms.png") -154px -1277px;
+	height: 22px;
+}
+.contact_detail {
+	color: #fff;
+	line-height: 0.5em;
+}
+.contact_detail h5 {
+	line-height: 0.5em;
+}
+.contact_detail a {
+	border-bottom: none;
+}
+.social-icon {
+	width: 50px;
+	height: 50px;
+}
+#icon-facebook {
+	background: #0A2336 url("images/packages-rooms.png") -150px -1080px;
+}
+#icon-instagram {
+	background: #0A2336 url("images/packages-rooms.png") -150px -1015px;
+}
+
+/** contact **/
 /* rooms */
 #rooms {
 	position: relative;
