@@ -1373,7 +1373,7 @@ a.callbutton{
    left: 45px;
    width: 40px;
    vertical-align: baseline;
-   background: url('../../images/icons.png') -141px -1272px;
+   background: url('images/icons.png') -141px -1272px;
    z-index:4;
 }
 .top-logo {
@@ -2130,10 +2130,12 @@ button,
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e9f1f3 url("images/about.svg") no-repeat;
+	background: #f4fafa url("images/about.svg") no-repeat;
 	padding: 5em 0 5em 0;
 	margin: 0;
 	background-size: 100% auto;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 #icon-tennis {
@@ -2187,10 +2189,12 @@ button,
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e8f2f4 url("images/package_bg.png") no-repeat;
+	background: #e9f1f3 url("images/package_bg.png") no-repeat;
 	padding: 1em 0 1em 0;
 	margin: 0;
 	background-size: 100% auto;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 .package_container {
@@ -2305,18 +2309,31 @@ ol.circle li::before {
 }
 
 /** contact **/
+#empty_box {
+	position: relative;
+	color: #252645;
+	background: #f4fafa url("images/empty_BG.png") no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	height: 250px;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* rooms */
 #rooms {
 	position: relative;
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e9f1f3 url("images/rooms_bg.png") no-repeat;
+	background: #f4fafa url("images/rooms_bg.png") no-repeat;
 	background-position: center bottom;
 	padding: 1em 0 1em 0;
 	margin: 0;
 	background-size: 100% auto;
 	height: 680px;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 .rooms-grid {
 	list-style: none;
@@ -2354,11 +2371,15 @@ ol.circle li::before {
 
 .room-container {
 	width: 90%;
+	text-align: center;
 }
 .occupancy {
 	font-size: 12px;
 	padding-bottom: 15px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-left: 1em;
 }
+
 
 .occupancy-icon {
 	background: url("images/packages-rooms.png") -160px -960px;
@@ -2377,7 +2398,8 @@ ol.circle li::before {
     border-radius: 5px;
 	border: 1px;
 	text-align: center;
-	height: 100%
+	height: 100%;
+	background: #fff;
 }
 
 .card-container {
@@ -2401,6 +2423,8 @@ ol.circle li::before {
 	padding: 5em 0 5em 0;
 	margin: 0;
 	background-size: 100% auto;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 .about_h2 {
