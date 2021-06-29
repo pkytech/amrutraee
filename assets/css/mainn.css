@@ -2187,7 +2187,7 @@ button,
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e8f2f4 url("images/about.svg") no-repeat;
+	background: #e8f2f4 url("images/package_bg.png") no-repeat;
 	padding: 1em 0 1em 0;
 	margin: 0;
 	background-size: 100% auto;
@@ -2311,7 +2311,8 @@ ol.circle li::before {
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e9f1f3 url("images/about.svg") no-repeat;
+	background: #e9f1f3 url("images/rooms_bg.png") no-repeat;
+	background-position: center bottom;
 	padding: 1em 0 1em 0;
 	margin: 0;
 	background-size: 100% auto;
@@ -2395,7 +2396,8 @@ ol.circle li::before {
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #e9f1f3 url("images/about.png") no-repeat;
+	background: #e9f1f3 url("images/about_bg.png") no-repeat;
+	background-position: center bottom;
 	padding: 5em 0 5em 0;
 	margin: 0;
 	background-size: 100% auto;
