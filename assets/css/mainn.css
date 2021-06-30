@@ -2657,7 +2657,6 @@ ol.circle li::before {
 		}
 
 /* Wide */
-
 @media screen and (max-width: 1680px) {
 
 	/* Basic */
@@ -2669,7 +2668,6 @@ ol.circle li::before {
 }
 
 /* Normal */
-
 @media screen and (max-width: 1080px) {
 
 	/* Banner */
@@ -2682,7 +2680,6 @@ ol.circle li::before {
 }
 
 /* Narrow */
-
 @media screen and (max-width: 840px) {
 	.amenities-grid li {
 		width: 30%;
@@ -2767,7 +2764,14 @@ ol.circle li::before {
 
 }
 
+/*   */
 @media screen and (max-width: 600px) {
+	.rooms-grid li {
+		width: 80%;
+	}
+	#rooms {
+		height: 700px;
+	}
 	.amenities-grid li {
 		width: 50%;
 	}
@@ -2778,15 +2782,18 @@ ol.circle li::before {
 		flex-direction: column;
 	}
 }
-/* Mobile */
 
+/* Mobile */
 @media screen and (max-width: 736px) {
 	.amenities-grid li {
 		width: 50%;
 	}
 	
 	.rooms-grid li {
-		width: 50%;
+		width: 80%;
+	}
+	#rooms {
+		height: 2100px;
 	}
 	
 	.navbar {   
