@@ -2787,15 +2787,21 @@ ol.circle li::before {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+
+	.contact_container {
+		display: block;
+	}
+	.contact_map {
+		width: 90%;
+	}
+	
 	.package {
 		width: 90%;
 		border-right: 0px;
 		border-bottom: 1px solid #dbdbdb;
 		margin-left: 15px;
 	}
-	.package:after {
-		content: '';
-	}
+	
 	.amenities-grid li {
 		width: 50%;
 	}
