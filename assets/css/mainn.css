@@ -1358,32 +1358,6 @@ body {
 #photobar .buttona a {
 	color: #fff;
 }
-a.callbutton{
-  display:inline-block;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
-  font-weight:300;
-  color:#FFFFFF;
-  text-align:center;
-  transition: all 0.2s;
-  border-bottom: none;
-}
-#callicon {
-   left: 45px;
-   width: 40px;
-   vertical-align: baseline;
-   background: url('images/icons.png') -141px -1272px;
-   z-index:4;
-}
-.top-logo {
-	width: 10%;
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	overflow: none;
-}
-
 
 body {
 	background-color: #183026;
@@ -2010,15 +1984,29 @@ button,
 .navbar {
 	position: absolute;
 	top: 5px;
+	right: 0px;
 	font-size: 14px;
-	right: 0;
+	list-style: none;
+	display: flex;
+	width: 65%;
+	padding-left: 0px;
 }
+
+.navbar li {
+	padding: 10px;
+}
+
 .navbar a {
 	color: white;
 	padding: 14px 20px;
 	text-decoration: none;
 	text-align: center;
 	border-bottom: none;
+}
+.callbox {
+	background: #b1b980;
+	font-weight: bold;
+	border-radius: 40px;
 }
 
 /* Header */
@@ -2692,9 +2680,6 @@ ol.circle li::before {
 	}
 	
 	/* Basic */
-	.navbar {   
-		flex-direction: column;
-	}
 		body {
 			background-color: #203936;
 			background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
@@ -2780,9 +2765,6 @@ ol.circle li::before {
 	.rooms-grid li {
 		width: 50%;
 	}
-	.navbar {   
-		flex-direction: column;
-	}
 }
 
 /* Mobile */
@@ -2813,9 +2795,6 @@ ol.circle li::before {
 		height: 2100px;
 	}
 	
-	.navbar {   
-		flex-direction: column;
-	}
 	/* Basic */
 
 	* {
