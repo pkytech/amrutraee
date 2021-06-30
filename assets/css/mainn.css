@@ -2206,6 +2206,7 @@ button,
 	margin-right: 1.5em;
 	display: flex;
 	background: white;
+	margin-top: 40px;
 }
 
 #package-icon {
@@ -2255,6 +2256,7 @@ ol.circle li::before {
 	width: 25%;
 	font-size: 14px;
 	border-right: 1px solid #dbdbdb;
+	margin-bottom: 50px;
 }
 
 /** contact **/
@@ -2785,6 +2787,15 @@ ol.circle li::before {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+	.package {
+		width: 90%;
+		border-right: 0px;
+		border-bottom: 1px solid #dbdbdb;
+		margin-left: 15px;
+	}
+	.package:after {
+		content: '';
+	}
 	.amenities-grid li {
 		width: 50%;
 	}
