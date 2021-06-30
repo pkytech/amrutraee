@@ -2254,6 +2254,7 @@ ol.circle li::before {
 .package {
 	width: 25%;
 	font-size: 14px;
+	border-right: 1px solid #dbdbdb;
 }
 
 /** contact **/
