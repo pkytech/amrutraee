@@ -1331,33 +1331,23 @@ body {
 	background: #3564a5;
 	border-radius: 0.5em 0.5em 0 0;
 }
+#photobar ul {
+	padding-left: 0px;	
+}
 #photobar li {
 	display: inline;
 	text-align: center;
-	padding-left: 12px;
-	padding-right: 12px;
 	font-size: 16px;
 	text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 	font-weight: bold;
 	color: #fff;
 }
-#photobar .buttona {
-	position: relative;
-	left: 0;
-	padding-left: 150px;
-	padding-right: 150px;
-	text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
-	
+
+.photobar-separator {
+	padding-left: 20px;
+	padding-right: 20px;
 }
-#photobar .buttonb {
-	padding-left: 150px;
-	padding-right: 150px;
-	text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
-	width: 45%;
-}
-#photobar .buttona a {
-	color: #fff;
-}
+
 
 body {
 	background-color: #183026;
@@ -2769,6 +2759,11 @@ ol.circle li::before {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+
+	.photobar-separator {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 
 	.top-logo {
 		width: 20%;
