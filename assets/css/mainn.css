@@ -144,8 +144,20 @@ body {
 	}
 }
 @media screen and (max-width: 840px) {
+	
+	.navbar {
+		visibility: hidden;
+	}
+	
 	.package_container {
 		flex-direction: column;
+	}
+	
+	.package {
+		width: 20%;
+		border-right: 0px;
+		border-bottom: 1px solid #dbdbdb;
+		margin-left: 15px;
 	}
 	
 	.container.\31 25\25 {
@@ -1976,14 +1988,22 @@ button,
 	top: 5px;
 	right: 0px;
 	font-size: 14px;
-	list-style: none;
-	display: flex;
 	width: 65%;
 	padding-left: 0px;
+	float: right;
+}
+.navbar ul {
+	list-style: none;
+	display: flex;
+	width: 90%;
+	float: right;
 }
 
 .navbar li {
-	padding: 10px;
+	padding-left: 0px;
+    padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .navbar a {
@@ -1993,10 +2013,12 @@ button,
 	text-align: center;
 	border-bottom: none;
 }
+
 .callbox {
 	background: #b1b980;
 	font-weight: bold;
 	border-radius: 40px;
+	padding: 10px;
 }
 
 /* Header */
