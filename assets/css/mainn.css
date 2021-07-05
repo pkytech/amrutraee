@@ -2222,6 +2222,17 @@ button,
 	z-index: 2;
 }
 
+.package-footer-table {
+	position: relative;
+	width: 98%;
+	margin-left: 20px;
+}
+.foooter-pacakge {
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+
 .package24 {
 	background: url("images/packages-rooms.png") -15px -190px;
 }
@@ -2483,8 +2494,62 @@ ol.circle li::before {
 	border-bottom-color: rgba(255, 255, 255, 0);
 }
 
-/* Footer */
+#pgallery {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 4; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#photobar a {
+	color: #fff;
+}
 
+/* Terms and Conditions - Start */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 4; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Terms and Conditions - END */
+
+/* Footer */
 #footer {
 	position: relative;
 	color: #fff;
@@ -2527,6 +2592,8 @@ ol.circle li::before {
 		margin: 0 0 9em 0;
 		font-size: 0.8em;
 	}
+	
+	
 
 /* Poptrox */
 

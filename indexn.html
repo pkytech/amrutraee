@@ -54,7 +54,7 @@
 						<ul>
 							<li>Photos by Guest</li>
 							<li class="photobar-separator">|</li>
-							<li>Photos by Property</li>
+							<li><a href="#" onclick="showPropertyPhotos(); return false;">Photos by Property</a></li>
 						</ul>
 					</div>
 					<h3 class="about_h2">ABOUT US</h2>
@@ -177,6 +177,13 @@
 						</ol>
 					</li>
 				</ul>
+				<footer>
+					<table class="package-footer-table">
+						<tr>
+							<td class="foooter-pacakge"><a href="#" onclick="showTermsAndCondition(); return false;">View terms and conditions</a></td>
+						</tr>
+					</table>
+				</footer>
 			</section>
 			<!-- section id="conditions"><a href="#">View Terms And Conditions</a></section -->
 			<section id="amenities">
@@ -245,14 +252,11 @@
 					<table class="ammenities-footer-table">
 						<tr>
 							<td>&nbsp;</td>
-							<td>&nbsp;</td>
 						</tr>
 						<tr>
-							<td>&nbsp;</td>
 							<td class="foooter-ammernities">....and many more activities</td>
 						</tr>
 					</table>
-					<span class="amenities_footer"></span>
 				</footer>
 				
 			</section>
@@ -291,12 +295,62 @@
 					</div>
 				</div>
 			</section>
+			<div id="terms-conditions" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+				  <span class="close">&times;</span>
+				  <p>
+					<h4>Terms and Conditions</h4>
+					<h5>Stay care</h5>
+					Our caretakers and cook will ensure you are pampered throughout your stay. There are no CCTVs installed in the property, but we rest assured that you will be well taken care of.
+					<h5>Booking policy</h5>
+					Booking will be confirmed against 100% advance payment. As required by law, every guest above 18 years must carry government-approved photo ID proof, that shows address. No charges for Children below 5 yrs. Children between 5 to 10 yrs. will be charged 50% (without separate bed). 
+					<h5>Property Rules</h5>
+					Guests are not allowed to access the kitchen.  Guests cannot invite other guests and day visitors during their stay. We do not encourage parties and late-night revelry. Loud music is not permitted beyond 10 pm. Consumption of alcohol is strictly prohibited. Illegal activities like carrying/consuming drugs/narcotics and carrying firearms/weapons are prohibited on the property. Management reserves the right to report any such activities to local authorities. Smoking is not allowed. Guests are requested to take care of all personal valuables. Management is not responsible for loss, theft or damage to any items. Any damages will be charged. Inappropriate behavior or violation of any of the above House Rules will invite a polite refusal to accept a Booking. If already checked in, Management reserves the right to ask guests to leave. 
+					<h5>Meals</h5>
+					A square meal with fixed menu will be served. Any one meal will be served with nonveg if required. Prior confirmation required. Tea/Coffee will be served during breakfast and evening tea time. If you would like tea/coffee at any other time of the day, it can be arranged at an additional charge. Barbeque and woodfire pizza are available. 
+					<h5>cancellation policy</h5>
+					A Guest is entitled to a refund of 50% if he/she cancels the confirmed booking upto 7days before the date of Check-In. A Guest is entitled to a refund of 25% if he/she cancels the confirmed booking upto 48 hours before the date of Check-In. If the Guest cancels the booking after 48 hours, he/she is entitled to no refund. Bookings can be rescheduled if done 10 days before the date of current booking.
+				  </p>
+				</div>
+			</div>
+			
+			<div id="pgallery" class="modal-content inner gallery">
+				<span id="pgclose" class="close">&times;</span>
+				<div class="row 0%">
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSCN4813.jpg" class="image fit"><img src="images/amrutraee/DSCN4813.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0058.jpg" class="image fit"><img src="images/amrutraee/DSC_0058.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0015.jpg" class="image fit"><img src="images/amrutraee/DSC_0015.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0031.jpg" class="image fit"><img src="images/amrutraee/DSC_0031.jpg" alt="" title="&nbsp;" /></a></div>
+				</div>
+				<div class="row 0%">
+					
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSCN4802.jpg" class="image fit"><img src="images/amrutraee/DSCN4802.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSCN4805.jpg" class="image fit"><img src="images/amrutraee/DSCN4805.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0074.jpg" class="image fit"><img src="images/amrutraee/DSC_0074.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSCN4822.jpg" class="image fit"><img src="images/amrutraee/DSCN4822.jpg" alt="" title="&nbsp;" /></a></div>
+				</div>
+				<div class="row 0%">
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0035.jpg" class="image fit"><img src="images/amrutraee/DSC_0035.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0003.jpg" class="image fit"><img src="images/amrutraee/DSC_0003.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0021.jpg" class="image fit"><img src="images/amrutraee/DSC_0021.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0038.jpg" class="image fit"><img src="images/amrutraee/DSC_0038.jpg" alt="" title="&nbsp;" /></a></div>
+				</div>
+
+				<div class="row 0%">
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/IMG-20170311-WA0021.jpg" class="image fit"><img src="images/amrutraee/IMG-20170311-WA0021.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/IMG-20170311-WA0025.jpg" class="image fit"><img src="images/amrutraee/IMG-20170311-WA0025.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0005.jpg" class="image fit"><img src="images/amrutraee/DSC_0005.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSC_0007.jpg" class="image fit"><img src="images/amrutraee/DSC_0007.jpg" alt="" title="&nbsp;" /></a></div>
+				</div>
+			</div>
 			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/amrutraee.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
