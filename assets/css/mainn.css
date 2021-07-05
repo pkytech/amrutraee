@@ -132,11 +132,6 @@ body {
 	.container {
 		width: 95%;
 	}
-	
-	.package_container {
-		flex-direction: column;
-	}
-
 }
 @media screen and (max-width: 500px) {
 	.package_container {
@@ -2130,7 +2125,7 @@ button,
 	color: #252645;
 	text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 	text-align: center;
-	background: #f4fafa url("images/about.svg") no-repeat;
+	background: #f4fafa;
 	padding: 1em 0 2em 0;
 	margin: 0;
 	background-size: 100% auto;
@@ -2180,7 +2175,17 @@ button,
 #icon-bird {
 	background: #e9f1f3 url("images/sprite_amenities.png") -140px 5px;
 }
-.room-parent-container {
+.amenities_footer {
+	position: relative;
+}
+.ammenities-footer-table {
+	position: relative;
+	width: 98%;
+}
+.foooter-ammernities {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 /* Packages */
