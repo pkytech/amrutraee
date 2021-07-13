@@ -68,9 +68,9 @@
 				<header>
 					<div id="photobar">
 						<ul>
-							<li>Photos by Guest</li>
+							<li><a href="#" alt="Show Gust Photos" onclick="showGuestPhotos(); return false;">Photos by Guest</a></li>
 							<li class="photobar-separator">|</li>
-							<li><a href="#" onclick="showPropertyPhotos(); return false;">Photos by Property</a></li>
+							<li><a href="#" alt="Show Photos by Property Owner" onclick="showPropertyPhotos(); return false;">Photos by Property</a></li>
 						</ul>
 					</div>
 					<h3 class="about_h2">ABOUT US</h2>
@@ -330,8 +330,16 @@
 				  </p>
 				</div>
 			</div>
-			
-			<div id="pgallery" class="modal-content inner gallery">
+			<div id="ggallery" class="gallery modal-content inner gallery">
+				<span id="ggclose" class="close">&times;</span>
+				<div class="row 0%">
+					<div class="3u 12u(mobile)"><a href="images/guest/DSCN3559.jpg" class="image fit"><img src="images/guest/DSCN3559.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/guest/DSCN3563.jpg" class="image fit"><img src="images/guest/DSCN3563.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/guest/DSCN3571.jpg" class="image fit"><img src="images/guest/DSCN3571.jpg" alt="" title="&nbsp;" /></a></div>
+					<div class="3u 12u(mobile)"><a href="images/guest/DSCN3554.jpg" class="image fit"><img src="images/guest/DSCN3554.jpg" alt="" title="&nbsp;" /></a></div>
+				</div>
+			</div>
+			<div id="pgallery" class="gallery modal-content inner gallery">
 				<span id="pgclose" class="close">&times;</span>
 				<div class="row 0%">
 					<div class="3u 12u(mobile)"><a href="images/amrutraee/DSCN4813.jpg" class="image fit"><img src="images/amrutraee/DSCN4813.jpg" alt="" title="&nbsp;" /></a></div>
