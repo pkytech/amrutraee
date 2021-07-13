@@ -28,4 +28,14 @@ window.onclick = function(event) {
 	 pgGalleryModal.style.display = "none";
   }
 }
-
+function showMenu() {
+  var menu = document.getElementById("m-menu");
+  if (menu.style.display == "" || menu.style.display == "none") {
+    menu.style.display = "block"
+  } else {
+    menu.style.display = "none"
+  }
+}
+function hideMenu() {
+  document.getElementById("m-menu").style.display = "none";
+}

@@ -143,6 +143,9 @@ body {
 	.navbar {
 		visibility: hidden;
 	}
+	.m-navbar {
+		visibility: visible;
+	}
 	
 	.package_container {
 		flex-direction: column;
@@ -1987,6 +1990,31 @@ button,
 	padding-left: 0px;
 	float: right;
 }
+.m-navbar {
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	font-size: 14px;
+	width: 65%;
+	padding-left: 0px;
+	padding-right: 10px;
+	float: right;
+	text-align: right;
+	visibility: hidden;
+}
+#m-menu {
+	display: none;
+	position: relative;
+	z-index: 2;
+	margin-top: 0px;
+}
+#m-menu li {
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+#m-menu a {
+	color: #fff;
+}
 .navbar ul {
 	list-style: none;
 	display: flex;
@@ -2872,6 +2900,9 @@ ol.circle li::before {
 	}
 	.navbar {
 		visibility: hidden;
+	}
+	.m-navbar {
+		visibility: visible;
 	}
 	
 	.contact_container {
